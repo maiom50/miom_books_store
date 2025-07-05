@@ -1,6 +1,6 @@
 import email
 from click import confirm
-from flask import Blueprint, flash, redirect, url_for
+from flask import Blueprint, flash, redirect, url_for, render_template
 from flask_wtf import FlaskForm
 from wtforms import PasswordField, StringField
 from wtforms.validators import Email, EqualTo, InputRequired, Length
